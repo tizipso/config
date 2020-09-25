@@ -1,0 +1,26 @@
+{
+    "name": "tizipso/config",
+    "description": "Config manager for dcat-admin",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension", "config"],
+    "homepage": "https://github.com/tizipso/config",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "余白",
+            "email": "tizips@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dcat\\Admin\\Extension\\Config\\": "src/"
+        },
+         "files": [
+            "src/bootstrap.php"
+        ]
+    }
+}
