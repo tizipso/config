@@ -18,6 +18,8 @@ class Config extends Extension
 
 //    protected $lang = __DIR__.'/../resources/lang';
 
+   protected $migrations = __DIR__.'/../database/migrations';
+
     protected $menu = [
         'title' => 'Config',
         'path'  => 'config',
