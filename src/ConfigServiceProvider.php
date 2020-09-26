@@ -22,6 +22,7 @@ class ConfigServiceProvider extends ServiceProvider
         }
 
         if ($migrations = $extension->migrations()) {
+            // var_dump($migrations);
             $this->loadMigrationsFrom($migrations);
         }
 
